@@ -12,11 +12,11 @@ import (
 	ginSwagger "github.com/swaggo/gin-swagger"
 )
 
-type Handler struct{ uc *app.ProductUseCase }
+type ProductHandler struct{ uc *app.ProductUseCase }
 
-func NewHandler(uc *app.ProductUseCase) *Handler { return &Handler{uc: uc} }
+func NewProductHandler(uc *app.ProductUseCase) *ProductHandler { return &ProductHandler{uc: uc} }
 
-func (h *Handler) Routes() *gin.Engine {
+func (h *ProductHandler) Routes() *gin.Engine {
 	r := gin.New()
 	r.Use(gin.Recovery())
 	r.Use(func(c *gin.Context) {
@@ -46,8 +46,8 @@ func (h *Handler) Routes() *gin.Engine {
 // @Success      200  {object}  map[string]interface{}  "Lista de productos"
 // @Failure      500  {object}  map[string]string       "Error interno"
 // @Router       /products [get]
-func (h *Handler) list(c *gin.Context) {
-	var dto ListQueryDTO
+func (h *ProductHandler) list(c *gin.Context) {
+	var dto ListProductQueryDTO
 	_ = c.Bind(&dto) // parse simple
 
 	items, err := h.uc.List(dto.ToFilters())
@@ -66,7 +66,7 @@ func (h *Handler) list(c *gin.Context) {
 // @Success      200  {object}  map[string]interface{}  "Producto encontrado"
 // @Failure      404  {object}  map[string]string       "Producto no encontrado"
 // @Router       /products/{id} [get]
-func (h *Handler) get(c *gin.Context) {
+func (h *ProductHandler) get(c *gin.Context) {
 	id := c.Param("id")
 	p, err := h.uc.Get(id)
 	if err != nil {
