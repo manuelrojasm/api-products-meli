@@ -14,9 +14,12 @@ import (
 
 func main() {
 	jsonPath := envOr("PRODUCTS_JSON", "products.json")
+	// csvPath := envOr("PRODUCTS_CSV", "products.csv")
 	port := envOr("PORT", "8080")
 
-	repo := prodrepo.NewJSONRepo(jsonPath)         // adapter de datos
+	repo := prodrepo.NewJSONRepo(jsonPath) // adapter de datos JSON
+	// repo := prodrepo.NewJSONRepo(csvPath) // adapter de datos CSV
+
 	uc := app.NewProductUseCase(repo)              // casos de uso
 	api := prodhttp.NewProductHandler(uc).Routes() // adapter HTTP
 
