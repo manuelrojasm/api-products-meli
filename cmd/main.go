@@ -4,6 +4,8 @@ import (
 	"log"
 	"os"
 
+	_ "api-products-meli/docs"
+
 	httpad "api-products-meli/internal/adapters/http"
 	repoad "api-products-meli/internal/adapters/repo"
 	"api-products-meli/internal/app"
