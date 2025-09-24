@@ -1,0 +1,92 @@
+[
+  {
+    "id": "p-001",
+    "name": "Auriculares Pro X",
+    "image_url": "https://images.unsplash.com/photo-1585386959984-a41552231693?auto=format&fit=crop&w=600&q=80",
+    "description": "Auriculares con cancelación activa de ruido.",
+    "price": 129.99,
+    "rating": 4.6,
+    "specs": { "Conectividad": "Bluetooth 5.3", "Batería": "40h", "Peso": "240g" }
+  },
+  {
+    "id": "p-002",
+    "name": "Monitor 27\" 2K",
+    "image_url": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",
+    "description": "Panel IPS 165Hz para juegos.",
+    "price": 279.0,
+    "rating": 4.4,
+    "specs": { "Resolución": "2560x1440", "Frecuencia": "165Hz", "Tiempo de respuesta": "1ms MPRT" }
+  },
+  {
+    "id": "p-003",
+    "name": "Teclado Mecánico TKL",
+    "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=600&q=80",
+    "description": "Switches lineales, hot-swap.",
+    "price": 89.5,
+    "rating": 4.7,
+    "specs": { "Switch": "Linear", "Layout": "TKL", "Retroiluminación": "RGB" }
+  },
+  {
+    "id": "p-004",
+    "name": "Mouse Gamer RGB",
+    "image_url": "https://images.unsplash.com/photo-1587202372775-98973b66e28e?auto=format&fit=crop&w=600&q=80",
+    "description": "Mouse ergonómico con sensor óptico de 16,000 DPI.",
+    "price": 49.99,
+    "rating": 4.5,
+    "specs": { "Sensor": "Óptico", "DPI": "16000", "Botones": "7 programables" }
+  },
+  {
+    "id": "p-005",
+    "name": "Laptop Ultrabook 14\"",
+    "image_url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
+    "description": "Ligera y potente, ideal para trabajo y estudio.",
+    "price": 999.0,
+    "rating": 4.8,
+    "specs": { "Procesador": "Intel i7 12th Gen", "RAM": "16GB", "Almacenamiento": "512GB SSD" }
+  },
+  {
+    "id": "p-006",
+    "name": "Tablet 11\" AMOLED",
+    "image_url": "https://images.unsplash.com/photo-1587825140708-75c9c84f16c5?auto=format&fit=crop&w=600&q=80",
+    "description": "Pantalla AMOLED con soporte para lápiz óptico.",
+    "price": 549.99,
+    "rating": 4.6,
+    "specs": { "Pantalla": "AMOLED 11\"", "Batería": "12h", "Almacenamiento": "256GB" }
+  },
+  {
+    "id": "p-007",
+    "name": "Smartwatch Pro",
+    "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80",
+    "description": "Reloj inteligente con ECG y GPS integrado.",
+    "price": 299.99,
+    "rating": 4.3,
+    "specs": { "Sensores": "ECG, GPS, SpO2", "Batería": "10 días", "Resistencia": "5ATM" }
+  },
+  {
+    "id": "p-008",
+    "name": "Cámara Mirrorless 24MP",
+    "image_url": "https://images.unsplash.com/photo-1519183071298-a2962be90b8e?auto=format&fit=crop&w=600&q=80",
+    "description": "Fotografía profesional con grabación 4K.",
+    "price": 1299.0,
+    "rating": 4.9,
+    "specs": { "Resolución": "24MP", "Video": "4K60fps", "Objetivo": "Kit 18-55mm" }
+  },
+  {
+    "id": "p-009",
+    "name": "Router WiFi 6",
+    "image_url": "https://images.unsplash.com/photo-1585079542459-b62e3e6c10e9?auto=format&fit=crop&w=600&q=80",
+    "description": "Cobertura amplia con tecnología WiFi 6.",
+    "price": 189.99,
+    "rating": 4.4,
+    "specs": { "Velocidad": "AX3000", "Antenas": "4 externas", "Seguridad": "WPA3" }
+  },
+  {
+    "id": "p-010",
+    "name": "SSD NVMe 1TB",
+    "image_url": "https://images.unsplash.com/photo-1616628182509-9d2f3f7d79f7?auto=format&fit=crop&w=600&q=80",
+    "description": "Almacenamiento ultrarrápido PCIe Gen4.",
+    "price": 129.0,
+    "rating": 4.7,
+    "specs": { "Velocidad lectura": "7000 MB/s", "Velocidad escritura": "5000 MB/s", "Formato": "M.2 2280" }
+  }
+]
